@@ -8,7 +8,7 @@ def home():
 @app.route('/student')
 def get_student():
     return jsonify({
-        "student_id": "24-00193",
+        "student_id": "24-00230",
         "name": "Ian Austriaa",
         "program": "BSIT",
         "year": 3,
@@ -39,6 +39,7 @@ def about():
       "name": "Bachelor of Science in Information Technology",
       "department": "Information Technology"
     },
+
     {
       "code": "BSCS",
       "name": "Bachelor of Science in Computer Science",
