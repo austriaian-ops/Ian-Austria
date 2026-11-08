@@ -31,6 +31,29 @@ def about():
         "section": "A",
         "interest": "Army"
     })
+
+    {
+  "courses": [
+    {
+      "code": "BSIT",
+      "name": "Bachelor of Science in Information Technology",
+      "department": "Information Technology"
+    },
+    {
+      "code": "BSCS",
+      "name": "Bachelor of Science in Computer Science",
+      "department": "Computer Studies"
+    }
+  ]
+}
+
+{
+  "code": "BSIT",
+  "name": "Bachelor of Science in Information Technology",
+  "duration": "4 years",
+  "description": "A program focused on computer systems, programming, and technology."
+}
+
 # NEW ENDPOINT 2: Greeting with Input
 @app.route('/greet')
 def greet():
